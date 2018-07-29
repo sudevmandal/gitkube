@@ -6,5 +6,6 @@ RUN wget http://www-us.apache.org/dist/tomcat/tomcat-7/v7.0.90/bin/apache-tomcat
 RUN cd /tmp && tar xvfz tomcat.tar.gz
 RUN cp -Rv /tmp/apache-tomcat-7.0.90/* /usr/local/tomcat/
 
-COPY ServletTutorial.war /usr/local/tomcat/webapps/ 
+COPY ServletTutorial.war /usr/local/tomcat/webapps/
+EXPOSE 8080
 CMD /usr/local/tomcat/bin/catalina.sh run
