@@ -16,7 +16,7 @@
   		Email : <b><%= request.getParameter("email") %></b>!
   		<br />
   		<br />  		
-  		Welcome to the Kubernetes Demo
+  		Welcome to the Kubernetes Demo1
   		<br />
   		<br />
         Java application is deployed in Kubernetes
