@@ -16,10 +16,11 @@
   		Email : <b><%= request.getParameter("email") %></b>!
   		<br />
   		<br />  		
-  		Welcome to the Kubernetes Demo1
+  		Welcome to the Kubernetes Demo
   		<br />
   		<br />
         Java application is deployed in Kubernetes
+        Added new demo content
   
  
 
