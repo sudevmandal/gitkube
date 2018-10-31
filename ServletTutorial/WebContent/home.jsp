@@ -21,7 +21,7 @@
   		<br />
         Java application is deployed in Kubernetes
         Added new demo content
-        Deleted More Content
+        Deleted More Content!
   
  
 
