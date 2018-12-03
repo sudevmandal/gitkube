@@ -19,9 +19,7 @@
   		Welcome to the Kubernetes Demo
   		<br />
   		<br />
-        Java application is deployed in Kubernetes
-        Added new demo content
-        Deleted More Content!!!!!!!
+        Java application is deployed in Kubernetes        
         <br />
         Test Content here.
   
