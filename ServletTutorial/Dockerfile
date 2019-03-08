@@ -7,5 +7,5 @@ RUN cd /tmp && tar xvfz tomcat.tar.gz
 RUN cp -Rv /tmp/apache-tomcat-7.0.93/* /usr/local/tomcat/
 
 COPY ServletTutorial.war /usr/local/tomcat/webapps/
-EXPOSE 8080
+EXPOSE 80
 CMD /usr/local/tomcat/bin/catalina.sh run

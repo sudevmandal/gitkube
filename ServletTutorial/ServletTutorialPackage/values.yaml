@@ -4,10 +4,10 @@
 # Declare name/value pairs to be passed into your templates.
 
 replicaCount: 2
-containername: servlettutorialtest
+containername: servlettutorial
 
 BuildNumber: buildNumber
 
-containerport: 8080
+containerport: 80
 
-ACRSecret: acrsecret
+ACRSecret: gitkubesec
