@@ -8,6 +8,6 @@ containername: servlettutorial
 
 BuildNumber: buildNumber
 
-containerport: 80
+containerport: 8080
 
 ACRSecret: gitkubesec
