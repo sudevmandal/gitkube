@@ -1,0 +1,23 @@
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: {{ .Values.containername }}
+  labels:
+    app: {{ .Values.containername }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ .Values.containername }}
+  replicas: {{ .Values.replicaCount }} # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.containername }}
+    spec:
+      containers:
+      - name: {{ .Values.containername }}
+        image: "CNTAPPRG.azurecr.io/servlettutorial:{{.Values.BuildNumber}}"        
+      imagePullSecrets:
+      - name: gitkubesec
+        ports:
+        - containerPort: {{ .Values.containerport }}

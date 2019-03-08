@@ -1,0 +1,12 @@
+# Default values for nginx.
+# This is a YAML-formatted file.
+# Declare name/value pairs to be passed into your templates.
+
+replicaCount: 2
+containername: servlettutorialtest
+
+BuildNumber: buildNumber
+
+containerport: 8080
+
+ACRSecret: gitkubesec
