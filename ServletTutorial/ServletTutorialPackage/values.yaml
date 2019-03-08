@@ -10,4 +10,4 @@ BuildNumber: buildNumber
 
 containerport: 8080
 
-ACRSecret: gitkubesec
+ACRSecret: acrsecret
