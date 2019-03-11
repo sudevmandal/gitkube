@@ -21,7 +21,8 @@
   		<br />
         Java application is deployed in AKS       
         <br />
-        Test Content here. Added new container1
+        Test Content here. Added new container
+        Deploy fresh container
   
  
 
