@@ -22,7 +22,7 @@
         Java application is deployed in AKS       
         <br />
         Test Content here. Added new container
-        Deploy fresh container
+        Deploy fresh container1
   
  
 
