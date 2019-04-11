@@ -26,6 +26,9 @@
         Deploy fresh container
         <br />
         Deploy AKS Container
+        <br />
+        Latest container is deployed
+        <
   
  
 
