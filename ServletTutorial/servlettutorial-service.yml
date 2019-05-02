@@ -5,16 +5,16 @@ metadata:
   labels:
     app: @containername@
 spec:
-  #selector:
-  #  app: @containername@
-  #ports:
-  #- protocol: TCP
-  #  port: 8080
-  #  targetPort: 8080
-  #type: NodePort
-  type: LoadBalancer
-  ports:
-  - port: 8080
   selector:
     app: @containername@
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+  type: NodePort
+  #type: LoadBalancer
+  #ports:
+  #- port: 8080
+  #selector:
+  #  app: @containername@
   
