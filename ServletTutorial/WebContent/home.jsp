@@ -30,7 +30,7 @@
         Latest container is deployed
         <br />
         
-        My container12
+        My container
   
  
 
