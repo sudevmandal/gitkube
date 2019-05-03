@@ -30,7 +30,7 @@
         Latest container is deployed
         <br />
         
-        My container Demo
+        My container Demo on Kubernetes
   
  
 
